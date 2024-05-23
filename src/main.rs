@@ -7,10 +7,13 @@ use panic_halt as _;
 use nb::block;
 
 use cortex_m_rt::entry;
+use rtt_target::rtt_init_print;
 use stm32f1xx_hal::{pac, prelude::*, timer::Timer};
 
 #[entry]
 fn main() -> ! {
+    rtt_init_print!();
+
     let cp = cortex_m::Peripherals::take().unwrap();
     let dp = pac::Peripherals::take().unwrap();
 
