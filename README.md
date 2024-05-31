@@ -2,6 +2,8 @@
 
 Airquality is a fully open source (hardware and firmware) cheap and fairly accurate air quality monitor.
 
+<img src="https://github.com/paologaleotti/airquality/assets/45665769/886df23f-7fe9-4707-bbe8-d8e5c07bd646" alt="image" width="500"/>
+
 It can measure:
 
 - Temperature
