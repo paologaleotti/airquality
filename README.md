@@ -35,6 +35,8 @@ All the electronics in my case can work with 5V, be sure to check the datasheet 
 
 ## Firmware
 
+The firmware is written in Rust (embbedded, no_std) using all the embedded Rust tooling and ecocsystem.
+
 Requirements:
 
 - Rust
