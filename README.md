@@ -24,7 +24,16 @@ Hardware:
 It costs around 10 euros to buy all the required hardware
 (it may require soldering the headers onto the STM32)
 
-## Build and flash
+## Hardware
+
+The circuit uses a single shared I2C Bus with OLED and the two sensors connected (SCL, SDA).
+
+![circuit schematic](https://github.com/paologaleotti/airquality/assets/45665769/a9b9f326-9a93-4b54-b335-557a1421d912)
+
+Note: in my case the ENS160 and AHT2x sensors were together on the same PCB.
+All the electronics in my case can work with 5V, be sure to check the datasheet of your own sensors before connecting to VCC!
+
+## Firmware
 
 Requirements:
 
@@ -34,7 +43,7 @@ Requirements:
 - Rust target `thumbv7m-none-eabi`
 - STLink (or any other supported probe)
 
-To flash the firmware:
+To build and flash the firmware:
 
 ```bash
 make flash
