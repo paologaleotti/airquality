@@ -28,7 +28,7 @@ It costs around 10 euros to buy all the required hardware
 
 The circuit uses a single shared I2C Bus with OLED and the two sensors connected (SCL, SDA).
 
-![circuit schematic](https://github.com/paologaleotti/airquality/assets/45665769/a9b9f326-9a93-4b54-b335-557a1421d912)
+![circuit schematic](https://github.com/paologaleotti/airquality/assets/45665769/f12d57ee-04ac-4db3-83a6-750d398b02e5)
 
 Note: in my case the ENS160 and AHT2x sensors were together on the same PCB.
 All the electronics in my case can work with 5V, be sure to check the datasheet of your own sensors before connecting to VCC!
