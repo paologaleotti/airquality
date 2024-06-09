@@ -16,7 +16,7 @@ It displays data to a small OLED display via a simple UI.
 
 Hardware:
 
-- STM32 board (`STM32f103c8` "blue pill")
+- STM32 board (`STM32f103c8` ARM based)
 - `ENS160` sensor (air quality, CO2)
 - `AHT21` sensor (temperature, humidity, pressure)
 - `ssd1306` (OLED display)
