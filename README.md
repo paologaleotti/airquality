@@ -1,3 +1,5 @@
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+
 # airquality
 
 Fully open source (hardware and firmware) cheap and fairly accurate air quality monitor.
